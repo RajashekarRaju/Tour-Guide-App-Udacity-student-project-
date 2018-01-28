@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android.worldtourguide">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyC6ZmTsRwtdK0rjWlKdR8b6d9dhuTNwMss" />
+
+        <activity
+            android:name=".SplashActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.android.worldtourguide.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+
+        <activity
+            android:name=".IndiaActivity"
+            android:label="Incredible #India">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".FranceActivity"
+            android:label="Gorgeous #France">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".USAActivity"
+            android:label="Tripping #U.S.A">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".SpainActivity"
+            android:label="Wonder #Spain">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".ChinaActivity"
+            android:label=" Great Walled #China">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".ItalyActivity"
+            android:label="Historical #Italy">
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+
+
+        <activity
+            android:name=".india.TajMahalIndiaActivity"
+            android:label="Taj Mahal"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".IndiaActivity" />
+        </activity>
+        <activity
+            android:name=".india.HillstationIndiaActivity"
+            android:label="Hill Stations">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".IndiaActivity" />
+        </activity>
+        <activity
+            android:name=".india.DudhsagarIndiaActivity"
+            android:label="Dudhsagar Falls">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".IndiaActivity" />
+        </activity>
+        <activity
+            android:name=".india.VaranasiIndiaActivity"
+            android:label="Ghats">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".IndiaActivity" />
+        </activity>
+
+
+        <activity
+            android:name=".france.EiffelFranceActivity"
+            android:label="Eiffel Tower"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".FranceActivity" />
+        </activity>
+        <activity
+            android:name=".france.DisneyLandFranceActivity"
+            android:label="Disney Land">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".FranceActivity" />
+        </activity>
+        <activity
+            android:name=".france.CannesFranceActivity"
+            android:label="Cannes">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".FranceActivity" />
+        </activity>
+        <activity
+            android:name=".france.LouvreFranceActivity"
+            android:label="The Louvre">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".FranceActivity" />
+        </activity>
+
+
+        <activity
+            android:name=".usa.StatueofLibertyUSAActivity"
+            android:label="Statue of Liberty"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".USAActivity" />
+        </activity>
+        <activity
+            android:name=".usa.GrandCanyonUSAActivity"
+            android:label="Grand Canyon">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".USAActivity" />
+        </activity>
+        <activity
+            android:name=".usa.YosemiteUSAActivity"
+            android:label="Yosemite National Park">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".USAActivity" />
+        </activity>
+        <activity
+            android:name=".usa.RushMoreUSAActivity"
+            android:label="Mount Rushmore National Memorial">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".USAActivity" />
+        </activity>
+
+
+        <activity
+            android:name=".spain.SagradaSpainActivity"
+            android:label="Sagrada Família"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".SpainActivity" />
+        </activity>
+        <activity
+            android:name=".spain.MajorcaSpainActivity"
+            android:label="Majorca">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".SpainActivity" />
+        </activity>
+        <activity
+            android:name=".spain.AlhambraSpainActivity"
+            android:label="Alhambra">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".SpainActivity" />
+        </activity>
+        <activity
+            android:name=".spain.IbizaSpainActivity"
+            android:label="Ibiza">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".SpainActivity" />
+        </activity>
+
+
+        <activity
+            android:name=".china.WallChinaActivity"
+            android:label="Great Wall of China"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ChinaActivity" />
+        </activity>
+        <activity
+            android:name=".china.PotalaPalaceChinaActivity"
+            android:label="Potala Palace">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ChinaActivity" />
+        </activity>
+        <activity
+            android:name=".china.TerracottaChinaAcivity"
+            android:label="Terracotta Army">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ChinaActivity" />
+        </activity>
+        <activity
+            android:name=".china.ForbiddenChinaActivity"
+            android:label="Forbidden City">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ChinaActivity" />
+        </activity>
+
+
+        <activity
+            android:name=".italy.ColosseumItalyActivity"
+            android:label="Colosseum"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ItalyActivity" />
+        </activity>
+        <activity
+            android:name=".italy.PisaItalyActivity"
+            android:label="Leaning Tower of Pisa">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ItalyActivity" />
+        </activity>
+        <activity
+            android:name=".italy.AmalfiItalyActivity"
+            android:label="Amalfi Coast">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ItalyActivity" />
+        </activity>
+        <activity
+            android:name=".italy.PiazzaItalyActivity"
+            android:label="Piazza San Marco">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ItalyActivity" />
+        </activity>
+
+    </application>
+
+</manifest>
