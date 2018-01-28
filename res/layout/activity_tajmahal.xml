@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/coordinate_layout"
+    tools:context="com.example.android.worldtourguide.india.TajMahalIndiaActivity">
+
+    <android.support.design.widget.AppBarLayout
+        style="@style/app_bar"
+        android:background="@drawable/taj_mahal">
+
+        <include layout="@layout/app_bar_layout" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            style="@style/parent_main_layout">
+
+            <TextView style="@style/description_TV_head" />
+
+            <View
+                style="@style/Line"
+                android:background="@color/material_grey" />
+
+            <TextView
+                style="@style/description_TV_bottom"
+                android:text="@string/deccontent_taj" />
+
+            <android.support.v7.widget.CardView
+                style="@style/card_view"
+                app:cardBackgroundColor="@color/green"
+                tools:targetApi="lollipop">
+
+                <LinearLayout style="@style/child_LL">
+
+                    <ImageView
+                        style="@style/visitors_image_view"
+                        android:src="@drawable/taj_location"
+                        tools:ignore="ContentDescription" />
+
+                    <TextView style="@style/location_TV_head" />
+
+                    <TextView
+                        style="@style/location_TV_bottom"
+                        android:text="@string/taj_time" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                style="@style/card_view"
+                app:cardBackgroundColor="@color/teal"
+                tools:targetApi="lollipop">
+
+                <LinearLayout style="@style/child_LL">
+
+                    <ImageView
+                        style="@style/visitors_image_view"
+                        android:src="@drawable/taj_visitors"
+                        tools:ignore="ContentDescription" />
+
+                    <TextView style="@style/visitors_TV_head" />
+
+                    <TextView
+                        style="@style/visitors_TV_bottom"
+                        android:text="@string/visitorinfo_taj" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <include layout="@layout/slide_container" />
+
+            <android.support.v7.widget.CardView
+                style="@style/card_view"
+                app:cardBackgroundColor="@color/amber"
+                tools:targetApi="lollipop">
+
+                <LinearLayout
+                    style="@style/child_LL"
+                    tools:ignore="UseCompoundDrawables">
+
+                    <ImageView
+                        style="@style/visitors_image_view"
+                        android:src="@drawable/quick_fact"
+                        tools:ignore="ContentDescription" />
+
+                    <TextView
+                        style="@style/visitors_TV_bottom"
+                        android:text="@string/taj_fact_content" />
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <TextView style="@style/about_TV_head" />
+
+            <View
+                style="@style/Line"
+                android:background="@color/material_grey" />
+
+            <TextView
+                style="@style/about_TV_bottom"
+                android:text="@string/about_taj_1" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="175dp"
+                    android:layout_height="250dp"
+                    android:src="@drawable/shahjahan"
+                    tools:ignore="ContentDescription" />
+
+                <ImageView
+                    android:layout_width="175dp"
+                    android:layout_height="250dp"
+                    android:src="@drawable/mumtaz"
+                    tools:ignore="ContentDescription" />
+
+            </LinearLayout>
+
+            <TextView
+                style="@style/about_TV_bottom"
+                android:text="@string/about_taj_2" />
+
+            <LinearLayout style="@style/parent_contact">
+
+                <TextView style="@style/contact_TV_head" />
+
+                <View style="@style/Line" />
+
+                <TextView
+                    style="@style/contact_TV_bottom"
+                    android:text="@string/contactinfo_taj" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/map_view"
+        style="@style/fab_action"
+        app:backgroundTint="@color/grey"
+        app:fabSize="normal" />
+
+</android.support.design.widget.CoordinatorLayout>

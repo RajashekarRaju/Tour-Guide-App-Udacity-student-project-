@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/coordinate_layout"
+    tools:context="com.example.android.worldtourguide.MainActivity">
+
+    <android.support.design.widget.AppBarLayout
+        style="@style/app_bar"
+        android:background="@drawable/world_tour_guide">
+
+        <include layout="@layout/app_bar_layout" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <include layout="@layout/content_main" />
+
+</android.support.design.widget.CoordinatorLayout>
