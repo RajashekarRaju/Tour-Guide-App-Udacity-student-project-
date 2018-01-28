@@ -1,0 +1,643 @@
+<resources>
+    <string name="app_name">World Tour Guide</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="rk_rj">RK RJ Studio</string>
+    <string name="location">Location</string>
+    <string name="visitors">Visitors Information</string>
+    <string name="about">About</string>
+    <string name="description">Description</string>
+
+    <string name="deccontent_eiffel">
+        Gustave Eiffels iconic, wrought-iron 1889 tower, with steps and elevators to observation
+        decks.</string>
+    <string name="deccontent_taj">
+        17th-century, Mughal-style, marble mausoleum with minarets, a mosque
+        and famously symmetrical gardens.></string>
+    <string name="deccontent_statue">
+        Iconic National Monument opened in 1886, offering guided tours, a museum and city views.</string>
+    <string name="deccontent_sagrada">
+        Antoni Gaudís renowned unfinished church, started in the 1880s, with museum and city views.</string>
+    <string name="deccontent_wall">
+        Ancient world wonder that winds for more than 5,500 miles across China, with towers and
+        walkways.</string>
+    <string name="deccontent_colosseum">
+        Monumental 3-tiered Roman amphitheater once used for gladiatorial games, with guided tour
+        option.</string>
+
+    <string name="taj_time">
+        LOCATION"      "-"     "Dharmapuri, Tajganj\n
+        CITY"               "-"     "Agra\n
+        STATE"            "-"     "Uttar Pradesh\n
+        COUNTRY"      "-"     "India\n
+        HEIGHT"          "-"     "73 m (240 ft)\n
+        BUILT"              "-"     "1632–1653\n
+        ARCHITECT"     "-"     "Ahmad Lahauri\n
+        ARCH. STYLE"     "-"     "Mughal Arch.\n
+        VISITORS"        "-"     "7–8 Million\n
+        OPENED"          "-"     "1648\n</string>
+    <string name="eiffel_time">
+        LOCATION"      "-"     "Champ de Mars\n
+        CITY"              "-"        "Paris\n
+        COUNTRY"       "-"     "France\n
+        HEIGHT"           "-"     "300 m, 324 m to tip\n
+        BUILT"              "-"       "1887–89\n
+        ARCHITECT"     "-"     "Stephen Sauvestre\n
+        VISITORS"        "-"      "7 Million/Year\n
+        OPENED"          "-"      "1889\n</string>
+    <string name="statue_time">
+        LOCATION"     "-"    "Liberty Island\n
+        CITY"              "-"      "New York City\n
+        COUNTRY"     "-"      "France\n
+        HEIGHT"         "-"     "93 meters\n
+        BUILT"            "-"     "October 28, 1886\n
+        AECHITECT"   "-"     "Frédéric Auguste\n
+        VISITORS"     "-"     "4.5 Million/Year\n
+        OPENED"       "-"     "1886\n</string>
+    <string name="sagrada_time">
+        LOCATION"     "-"    "Carrer de Mallorca\n
+        CITY"             "-"      "Barcelona\n
+        COUNTRY"      "-"      "Spain\n
+        HEIGHT"         "-"     "172 m\n
+        BUILT"            "-"     "1882-2010\n
+        ARCHITECT"   "-"     "Antoni Gaudí\n
+        VISITORS"       "-"     "3 Million/Year\n
+        OPENED"        "-"     "7 November 2010\n</string>
+    <string name="wall_time">
+        LOCATION"      "-"    "Huairou\n
+        CITY"             "-"      "Beijing\n
+        COUNTRY"      "-"     "China\n
+        HEIGHT"         "-"     "7.8 m (25 ft 7 in) high\n
+        BUILT"             "-"     "2000 years ago\n
+        LENGHT"          "-"     "21,196 km\n
+        ARCHITECT"    "-"     "Qin Shi Huang\n
+        VISITORS"        "-"     "10 Million/Year\n</string>
+    <string name="colosseum_time">
+        LOCATION"       "-"    "Piazza del Colosseo\n
+        CITY"                "-"     "Rome\n
+        COUNTRY"        "-"     "Italy\n
+        HEIGHT"            "-"     "48 m\n
+        ARCHITECT"    "-"     "Vespasian, Titus\n
+        BUILT IN"          "-"     "70–80 AD\n
+        VISITORS"        "-"     "4 Million/Year\n
+        OPENED"          "-"     "80 AD\n</string>
+
+    <string name="visitorinfo_taj">
+        ★ OPENING HOURS"   "-"   "Sunrise to Sunset\n\n
+        ★ FREE ENTRY"   "-"   "Children below 15 years\n\n
+        ★ INDIAN VISITORS"   "-"   "Rs.40\n\n
+        ★ SAARC and BIMSTEC COUNTRIES"   "-"   "Rs.530\n\n
+        ★ OTHER FOREIGN VISITORS"   "-"   "Rs.1000\n\n
+        ★ NOTE"   "-"   "Fridays Closed</string>
+    <string name="visitorinfo_eiffel">
+        "                        "★ When to visit\n
+          ● The Eiffel Tower is open all year!\n\n
+        "                        "★ Opening hours\n
+          ● From mid-June to early September, 9:00AM to midnight.\n
+          ● During the rest of the year, from 9:30AM to 11:00PM.\n\n
+        "                        "★ How to get there\n
+          ● The two closest métro stops are Bir-Hakeim and Trocadero.\n\n
+        "                        "★ ENTRY FEES\n
+          ● Under 4 years - Free\n
+          ● Aged between 12-24 years - 5€\n
+          ● Adults - 10€</string>
+    <string name="visitorinfo_statue">
+        "                        "★ When to visit\n
+          ● Liberty Island is open every day except December 25.\n\n
+        "                        "★ Opening hours\n
+          ● January 1 to May 26 - 3:30 PM and Grounds close at 4:20 PM\n
+          ● May 27 to September 4 - 5:00 PM and Grounds close at 6:20 PM\n
+          ● September 5 to October 9 - 4:00 PM and Grounds close at 5:20 PM\n
+          ● October 10 to December 31- 3:30 PM and Grounds close at 4:30\n
+          ● -" "Christmas Eve, December 24 - 1:30 PM and Grounds close at 2:30 PM\n\n
+        "                        "★ How to get there\n
+          ● Ferries set off from Battery Park, Brooklyn.\n\n
+        "                        "★ ENTRY FEES\n
+          ● Under 4 years - Free\n
+          ● For 4-12 years - $9\n
+          ● Adults (13+) - $18.50\n
+          ● Senior (62+) years - $9\n\n
+        "                        "★ NOTE\n
+          ● There is no extra fee for pedestal access.\n
+          ● Crown fee is in addition to the ferry fee.</string>
+    <string name="visitorinfo_sagrada">
+        "                        "★ When to visit\n
+          ● The Sagrada Família is always crowded, but the queues will be at their
+        shortest in the early morning or late afternoon\n\n
+        "                        "★ Opening hours\n
+          ● November to February, 9 am to 6 pm\n
+          ● March, 9 am to 7 pm\n
+          ● April to September, 9 am to 8 pm\n
+          ● October, 9 am to 7 pm\n\n
+          ● December(25,26) January(1,6,9)\n\n
+        "                        "★ How to get there\n
+          ● Take the metro to the Sagrada Familia stop!\n\n
+        "                        "★ ENTRY FEES\n
+          ● Prices start at 15€\n
+          ● Free to see from the outside</string>
+    <string name="visitorinfo_wall">
+        "                        "★ When to visit\n
+          ● All the year!\n
+          ● The ideal months for the Great Wall walking and hiking are spring, early
+        summer and autumn\n\n
+        "                        "★ Opening hours\n
+          ● Great Wall of China is open all the Year!\n
+          ● All Weekdays ( 07:30 am to 05:30 pm )\n\n
+        "                        "★ How to get there\n
+          ● The scenic area has two entrances, south entrance and north entrance. One can
+        start the visit from either of it.\n
+          ➤ Hiking\n
+          ➤ Cableway\n
+          ➤ Slideway\n\n
+        "                        "★ ENTRY FEES\n
+          ● Children under 1.2 meters - Free\n
+          ● Children between 1.2 and 1.4 meters - CNY 20\n
+          ● Adults (13+) - CNY 40\n
+          ● Senior (62+) years - CNY 20\n\n
+        "                        "★ NOTE\n
+          ● If you buy an entrance ticket attached with a postcard of Mutianyu, you need
+        to pay CNY 5 more.</string>
+    <string name="visitorinfo_colosseum">
+        "                        "★ When to visit\n
+          ● Open All the Year !\n
+          ● Closed 1 January, 1 May and 25 December.\n\n
+
+        "                        "★ Opening hours\n
+          ● Last Sunday of October to 15 February:  8.30 - last admission at 15.30 - exit at 16.30 \n\n
+          ● 16 February to 15 March:  8.30 - last admission at 16.00 - exit at 17.00\n\n
+          ● 16 March to last Saturday of March:  8.30 - last admission at 16.30 - exit at 17.30\n\n
+          ● Last Sunday of March to 31 August:  8.30 - last admission at 18.15 - exit at 19.15\n\n
+          ● 1 September to 30 September:  8.30 - last admission at 18.00 - exit at 19.00\n\n
+          ● 1 October to last Sunday of October:  8.30 - last admission at 17.30 - exit at 18.30 \n\n
+        "                  "★ HOW TO REACH THE SITE\n
+          ● Roma, Piazza del Colosseo\n
+          ● Metro: Line B - Colosseo \n
+          ● Bus: Line 75 - 81 - 673 - 175 - 204\n
+          ● Tram: Line 3\n\n
+        "                        "★ ENTRY FEES\n
+          ● Full price - €12\n
+          ● Reduced Fee - €7 for European Union citizens\n\n
+        "                        "★ NOTE\n
+          ● Get there early in the morning to avoid the crowds!\n
+          ● Make sure you wear sunscreen, as the Colosseum is open-air.</string>
+
+    <string name="taj_fact_content">
+        ● Before his accession to the throne, Shah Jahan was popularly known as Prince Khurram.\n\n
+        ● Shah Jahan fell in love with the beautiful Arjumand Bano Begum and married her, making her
+        his third wife.\n\n
+        ● Shah Jahan lost Mumtaz Mahal, when she died giving birth to their 14h child.\n\n
+        ● For the transportation of the construction materials, more than 1,000 elephants were employed.\n\n
+        ● As many as 28 different varieties of semi-precious and precious stones were used to adorn
+        the Taj with exquisite inlay work.\n\n
+        ● Depending on what time of the day it is and whether or not there’s moon at night, Taj Mahal
+        appears to be of different color every time. Some even believe that this changing pattern of
+        colors depict different moods of a woman.\n\n
+        ● Passages from Quran have been used as decorative elements throughout the complex.\n\n
+        ● On the sides of the actual tomb of Mumtaz Mahal, 99 names of Allah can be found as calligraphic
+        inscriptions.\n\n
+        ● Taj Mahal was built in stages, with the plinth and the tomb taking up roughly 15 years.
+        Building of minarets, mosque, jawab, and gateway took additional 5 years to be completed.\n\n
+        ● Different types of marbles used in construction of Taj Mahal were brought over from many
+        different regions and countries: Rajasthan, Punjab, China, Tibet, Afghanistan, Srilanka, and
+        Arabia.\n\n
+        ● Many precious stones and Lapis Lazuli (a semi-precious stone) were ripped off from its walls
+        by the Britishers during the Indian rebellion of 1857.\n\n
+        ● Taj Mahal attracts 2-4 million visitors annually with over 200,000 from overseas.\n</string>
+    <string name="eiffel_fact_content">
+        ● Located on the Champ de Mars in Paris, France, the Eiffel Tower is one of the most well
+        known structures in the world.\n\n
+        ● The Eiffel Tower was originally built as the entrance arch for the Worlds Fair in 1889.\n\n
+        ● It is named after Gustave Eiffel, whose company was in charge of the project.\n\n
+        ● The Eiffel Tower is 320 metres (1050 feet) in height and was the tallest man made structure
+        in the world for 41 years before being surpassed by the Chrysler Building in New York.\n\n
+        ● The Eiffel Tower is made of iron and weighs around 10000 tonnes.\n\n
+        ● Around 50 tonnes of paint are added to the Eiffel Tower every 7 years to protect it from
+        rust.\n\n
+        ● Despite its height, the Eiffel Tower was designed to be wind resistant, swaying only a few
+        inches in the wind. It actually moves further when the iron on the sun facing side heats and
+        expands, moving the top up to 7 inches (18 centimetres) away from the sun.\n\n
+        ● Temperature also alters the height of the Eiffel Tower by up to 6 inches (15 centimetres).\n\n
+        ● Millions of people climb the Eiffel Tower every year and it has had over 250 million visitors
+        since its opening.\n\n
+        ● Visitors can climb up stairs to the first two levels or take a lift which also has access
+        to the third and highest level.\n\n
+        ● Being so popular, the Eiffel Tower design has been recreated around the world, including
+        the half scale replica at the Paris Las Vegas Hotel in Nevada, USA and the full scale Tokyo
+        Tower in Japan.\n\n
+        ● Not everyone liked the Eiffel Tower when it was first built, with many criticizing its bold
+        design.\n\n
+        ● The French name for the Eiffel Tower is La Tour Eiffel, it also has the nickname La dame de
+        fer which means the iron lady.\n</string>
+    <string name="statue_fact_content">
+        ● The Statue of Liberty celebrates her birthday on October 28th in honor of the day she was
+        officially accepted by the president of the United States in 1886.\n\n
+        ● Visitors must climb 354 stairs to reach the Statue of Libertys crown.\n\n
+        ● There are 25 windows in Lady Libertys crown.\n\n
+        ● The seven spikes on the Statue of Liberty\n crown represent either the seven oceans or the
+        seven continents.\n\n
+        ● The statue is made of copper and is now green in color because of oxidation from evaporation
+        of the seawater surrounding it.\n\n
+        ● The Staue of Liberty weighs 450,000 pounds.\n\n
+        ● The Statue of Liberty has size 879 sandals that are each 25 feet (7.6m) long.\n</string>
+    <string name="sagrada_fact_content">
+        ● The ground-breaking for La Sagrada Familia took place in 1882.\n\n
+        ● The expected completion date for completion of La Sagrada Familia is 2041.\n\n
+        ● The original idea for La Sagrada Familia came from the publisher Josep Bocabella, who was
+        inspired after a trip to the Vatican.\n\n
+        ● The construction of La Sagrada Familia has been funded by donations.\n\n
+        ● After Antoni Gaudis death Domenec Sugranes I Gras took over. His work was interrupted in
+        1936 with the Spanish Civil War.\n\n
+        ● As of October 2015 La Sagrada Familia is estimated to be 70% complete.\n\n
+        ● In 2010 an organ was installed in the un-finished La Sagrada Familia, making it possible
+        to hold religious services.\n\n
+        ● The Nave, the Crypt, the Museum, the Shop, and the Nativity and Passion towers are accessible
+        by tourists.\n\n
+        ● The full name of La Sagrada Familia is Basilica I Temple Expiatori de la Sagrada Familia.\n</string>
+    <string name="wall_fact_content">
+        ● Its main purpose was protection against attacks and invasions from the north.\n\n
+        ● The Great Wall of China is the longest structure ever built by humans.\n\n
+        ● The widest section of the wall is around 9 metres (30 ft).\n\n
+        ● The highest point of the wall is around 8 metres (26 ft)\n\n
+        ● The first parts of the wall were built over 2000 years ago.\n\n
+        ● A large number of workers have lost their lives while building the wall.\n\n
+        ● Earlier sections of the wall were made from stone, wood and compacted earth.\n\n
+        ● Some of the well maintained areas of the wall, such as those near Beijing, are popular tourist
+        destinations.\n\n
+        ● While some parts of the wall have been preserved or renovated, other parts have been vandalised
+        or destroyed to make way for construction.\n\n
+        ● Rumours that astronauts can see the Great Wall of China from the Moon with the naked eye
+        are untrue.\n</string>
+    <string name="colosseum_fact_content">
+        ● Construction began in 72 AD under the emperor Vespasian.\n\n
+        ● It took 60,000 Jewish slaves to build the Colosseum. It was built of stone and concrete.\n\n
+        ● There were also re-enactments of famous battles and executions held in the amphitheatre.\n\n
+        ● Some of the events and games that were held in the Colosseum lasted for up to 100 days.\n\n
+        ● They Romans had the earliest form of a Skydome. If it rained they stretched a red canvas
+        over the entire Colosseum.\n\n
+        ● After the Colosseum was partially destroyed by the earthquake, some of the fallen pieces
+        were used to build St Peters Basilica.\n\n
+        ● It is one of the most popular Roman tourist attractions today.\n\n
+        ● Ray Charles, Paul McCartney, Billy Joel and Elton John have all performed concerts at the
+        Colloseum.\n\n
+        ● The Colosseum has become a symbol against capital punishment. The death penalty was abolished
+        in Italy in 1948.\n</string>
+
+    <string name="about_taj_1">
+        ★ The Taj Mahal is an ivory-white marble mausoleum on the south bank of the Yamuna river in
+        the Indian city of Agra. The Taj Mahal was commissioned by Shah Jahan in 1631, to be built
+        in the memory of his wife Mumtaz Mahal, a Persian princess who died giving birth to their
+        14th child, Gauhara Begum.\n </string>
+    <string name="about_taj_2">
+        ★ The tomb is the centrepiece of a 17-hectare complex, which includes a mosque and a guest
+        house, and is set in formal gardens bounded on three sides bya crenellated wall.\n\n
+        ★ The Taj Mahal complex is believed to have been completed in its entirety in 1653 at a cost
+        estimated at the time to be around 32 million rupees, which in 2015 would be approximately
+        52.8 billion rupees (U.S. $827 million).\n\n
+        ★ The construction project employed some 20,000 artisans under the guidance of a board of
+        architects led by the court architect to the emperor, Ustad Ahmad Lahauri.\n\n
+        ★ Described by Nobel laureate Rabindranath Tagore as THE TEAR-DROP ON THE CHEEK OF TIME ,
+        it is regarded by many as the best example of Mughal architecture and a symbol of Indias rich
+        history. </string>
+    <string name="about_eiffel_1">
+        ★ The Eiffel Tower is a wrought iron lattice tower on the Champ de Mars in Paris, France. It
+        is named after the engineer Gustave Eiffel, whose company designed and built the tower.\n\n
+        ★ Constructed from 1887–89, it was initially criticizedby some of Frances leading artists
+        for its design, but it has become a globalcultural icon ofFrance and one of the most recognisable
+        structures in the world. The Eiffel Tower is the most-visited paid monument in the world;
+        6.91 million people ascended it in 2015.\n\n
+        ★ The Eiffel Tower by Gustave Eiffel.\n</string>
+    <string name="about_eiffel_2">
+        ★ The tower is 324 metres (1,063 ft) tall, about the same height as an 81-storey building,
+        and the tallest structure in Paris. Its base is square, measuring 125 metres (410 ft) on each
+        side.\n\n
+        ★ The tower has three levels for visitors, with restaurants on the first and second levels.
+        The top levels upper platform is 276 m (906 ft) above the ground – the highest observation
+        deck accessible to the public in the European Union. \n\n
+        ★ The main structural work was completed at the end of March 1889 and, on 31 March, Eiffel
+        celebrated by leading a group of government officials, accompanied by representatives of the
+        press, to the top of the tower. Because the lifts were not yet in operation, the ascent
+        was made by foot, and took over an hour, with Eiffel stopping frequently to explain various
+        features.\n\n
+        ★ Eiffel had a permit for the tower to stand for 20 years. It was to be dismantled in 1909,
+        when its ownership would revert to the City of Paris. The City had planned to tear it down
+        but as the tower proved to be valuable for communication purposes, it was allowed to remain
+        after the expiry of the permit.</string>
+    <string name="about_statue_1">
+        ★ The Statue of Liberty is a colossal neoclassical sculpture on Liberty Island in New
+        York Harbor in New York City, in the United States. The copper statue, a gift from the people
+        of France to the people of the United States\n\n
+        ★ The Statue of Liberty is a figure of a robed woman representing Libertas, a Roman
+        liberty goddess - also incorporating some elements reminiscent of another Roman deity, Sol
+        Invictus. She holds a torch above her head with her right hand, and in her left hand carries
+        a tabula ansata inscribed in Roman numerals with JULY IV MDCCLXXVI (July 4, 1776), the date
+        of the U.S. Declaration of Independence. A broken chain lies at her feet. The statue became
+        an icon of freedom and of the United States, and was a welcoming sight to immigrants arriving
+        from abroad.\n\n
+        ★ The statue was administered by the United States Lighthouse Board until 1901 and then
+        by the Department of War; since 1933 it has been maintained by the National Park Service.
+        Public access to the balcony around the torch has been barred for safety since 1916.\n\n
+        ★ The Liberty of Statue by French sculptor Frédéric Auguste Bartholdi and built by Gustave
+        Eiffel.\n</string>
+    <string name="about_statue_2">
+        ★ Bartholdi and Laboulaye considered how best to express the idea of American liberty. In
+        early American history, two female figures were frequently used as cultural symbols of the
+        nation. \n\n
+        ★ One of these symbols, the personified Columbia, was seen as an embodiment of the
+        United States in the manner that Britannia was identified with the United Kingdom and Marianne
+        came to represent France. Columbia had supplanted the earlier figure of an Indian princess,
+        which had come to be regarded as uncivilized and derogatory toward Americans.\n\n
+        ★ Fundraising for the statue had begun in 1882. The committee organized a large number of
+        money-raising events. As part of one such effort, an auction of art and manuscripts, poet
+        Emma Lazarus was asked to donate an original work. She initially declined, stating she could
+        not write a poem about a statue. \n\n
+        ★ On June 17, 1885, the French steamer Isère, laden with the Statue of Liberty, reached the
+        New York port safely. After 5 months of daily calls to donate to the statue fund, on August
+        11, 1885,the World announcedthat $102,000 had been raised from 120,000 donors, and that 80
+        percent of the total had been received in sums of less than one dollar.\n\n
+        ★ A ceremony of dedication was held on the afternoon of October 28, 1886. President Grover
+        Cleveland, the former New York governor, presided over the event.[100] On the morning of the
+        dedication, a parade was held in New York City; estimates of the number of people who watched
+        it ranged from several hundred thousand to a million.</string>
+    <string name="about_sagrada_1">
+        ★ The Basílica i Temple Expiatori de la Sagrada Família (Basilica and Expiatory Church
+        of the Holy Family) is the largest unfinished Roman Catholic church in world and is located
+        in Barcelona, designed by Catalan architect Antoni Gaudí (1852–1926). Gaudís work on the
+        building is part of a UNESCO World Heritage Site.\n\n
+        ★ In 1882, construction of Sagrada Família started under architect Francisco Paula de
+        Villar. In 1883, when Villar resigned, Gaudí took over as chief architect, transforming the
+        project with his architectural and engineering style, combining Gothic and curvilinear Art
+        Nouveau forms. Gaudí devoted the remainder of his life to the project, and at the time of his
+        death at age 73 in 1926, less than a quarter of the project was complete.\n\n
+        ★ The basilica has a long history of dividing the citizens of Barcelona: over the initial
+        possibility it might compete with Barcelonas cathedral, over Gaudís design itself, over the
+        possibility that work after Gaudís death disregarded his design,and the 2007 proposal to
+        build an underground tunnel of Spains high-speed rail link to France which could disturb its
+        stability.\n\n
+        ★ Describing Sagrada Família, art critic Rainer Zerbst said it is probably impossible
+        to find a church building anything like it in the entire history of art, and Paul Goldberger
+        describes it as the most extraordinary personal interpretation of Gothicarchitecture since
+        the Middle Ages.</string>
+    <string name="about_sagrada_inside">
+        ★ The Basilica of the Sagrada Família was the inspiration of a bookseller, Josep Maria
+        Bocabella, founder of Asociación Espiritual de Devotos de San José\n </string>
+    <string name="about_sagrada_2">
+        ★ On the subject of the extremely long construction period, Gaudí is said to have remarked:
+        My client is not in a hurry. When Gaudí died in 1926, the basilica was between 15 and 25
+        percent complete. After Gaudís death, work continued under the direction of Domènec Sugrañes
+        i Gras until interrupted by the Spanish Civil War in 1936.\n\n
+        ★ Parts of the unfinished basilica and Gaudís models and workshop were destroyed during the
+        war by Catalan anarchists. The present design is based on reconstructed versions of the plans
+        that were burned in a fire as well as on modern adaptations. Since 1940 the architects Francesc
+        Quintana, Isidre Puig Boada, Lluís Bonet i Gari and Francesc Cardoner have carried on the work.
+        The illumination was designed by Carles Buïgas. \n\n
+        ★ Parts of the unfinished basilica and Gaudís models and workshop were destroyed during
+        the war by Catalan anarchists. The present design is based on reconstructed versions of the
+        plans that were burned in a fire as well as on modern adaptations. Since 1940 the architects
+        Francesc Quintana, Isidre Puig Boada, Lluís Bonet i Gari and Francesc Cardoner have carried
+        on the work. The illumination was designed by Carles Buïgas.\n\n
+        ★ The style of la Sagrada Família is variously likened to Spanish Late Gothic, Catalan
+        Modernism and to Art Nouveau or Catalan Noucentisme. While the Sagrada Família falls within
+        the Art Nouveau period, Nikolaus Pevsner points out that, along with Charles Rennie Macintosh
+        in Glasgow, Gaudí carried the Art Nouveau style far beyond its usual application as a surface
+        decoration.</string>
+    <string name="about_sagrada_architects">★ The Sagrada Familia by Antoni Gaudí.\n</string>
+    <string name="about_wall_1">
+        ★ The Great Wall of China is a series of fortifications made of stone, brick, tamped
+        earth, wood, and other materials, generally built along an east-to-west line across the
+        historical northern borders of China to protect the Chinese states and empires against the
+        raids and invasions of the various nomadic groups of the Eurasian Steppe. Several walls were
+        being built as early as the 7th century BC; these, later joined together and made bigger and
+        stronger, are collectively referred to as the Great Wall.\n\n
+        ★ Especially famous is the wall built in 220–206 BC by Qin Shi Huang, the first Emperor
+        of China. Little of that wall remains. The Great Wall has been rebuilt, maintained, and
+        enhanced over various dynasties; the majority of the existing wall is from the Ming Dynasty
+        (1368–1644).\n\n
+        ★ Apart from defense, other purposes of the Great Wall have included border controls,
+        allowing the imposition of duties on goods transported along the Silk Road, regulation or
+        encouragement of trade and the control of immigration and emigration. Furthermore, the
+        defensive characteristics of the Great Wall were enhanced by the construction of watch towers,
+        troop barracks, garrison stations\n\n
+        ★ The Great Wall of China by Qin Shi Huang, to protect dynasty\n</string>
+    <string name="about_wall_2">
+        ★ The Chinese were already familiar with the techniques of wall-building by the time of the
+        Spring and Autumn period between the 8th and 5th centuries BC. During this time and the
+        subsequent Warring States period, the states of Qin, Wei, Zhao, Qi, Yan, and Zhongshan all
+        constructed extensive fortifications to defend their own borders. Built to withstand the
+        attack of small arms such as swords and spears, these walls were made mostly by stamping
+        earth and gravel between board frames.\n\n
+        ★ The Great Wall concept was revived again under the Ming in the 14th century, and following
+        the Ming armys defeat by the Oirats in the Battle of Tumu. The Ming had failed to gain a clear
+        upper hand over the Mongolian tribes after successive battles, and the long-drawn conflict was
+        taking a toll on the empire. The Ming adopted a new strategy to keep the nomadic tribes out
+        by constructing walls along the northern border of China. \n\n
+        ★ When China opened its borders to foreign merchants and visitors after its defeat in the
+        First and Second Opium Wars, the Great Wall became a main attraction for tourists. The
+        travelogues of the later 19th century further enhanced the reputation and the mythology of
+        the Great Wall, such that in the 20th century, a persistent misconception exists about the
+        Great Wall of China being visible from the Moon or even Mars.\n\n
+        ★ While portions north of Beijing and near tourist centers have been preserved and even
+        extensively renovated, in many other locations the Wall is in disrepair. Those parts might
+        serve as a village playground or a source of stones to rebuild houses and roads.</string>
+    <string name="about_colosseum_1">
+        ★ The Colosseum or Coliseum , also known as the Flavian Amphitheatre, is an oval
+        amphitheatre in the centre of the city of Rome, Italy. Built of travertine, tuff, and brick-
+        faced concrete, it is the largest amphitheatre ever built. \n\n
+        ★ The Colosseum is situated just east of the Roman Forum. Construction began under the
+        emperor Vespasian in AD 72,[2] and was completed in AD 80 under his successor and heir Titus.
+        Further modifications were made during the reign of Domitian (81–96). These three emperors are
+        known as the Flavian dynasty, and the amphitheatre was named in Latin for its association with
+        their family name (Flavius).\n\n
+        ★ The Colosseum could hold, it is estimated, between 50,000 and 80,000 spectators,
+        having an average audience of some 65,000; it was used for gladiatorial contests and public
+        spectacles such as mock sea battles, animal hunts, executions, re-enactments of famous battles,
+        and dramas based on Classical mythology.\n\n
+        ★ The name Colosseum has long been believed to be derived from a colossal statue of Nero
+        nearby. This statue was later remodeled by Neros successors into the likeness of Helios or
+        Apollo, the sun god, by adding the appropriate solar crown.\n\n
+        ★ In the 8th century, a famous epigram attributed to the Venerable Bede celebrated the
+        symbolic significance of the statue in a prophecy that is variously quoted: Quamdiu stat
+        Colisæus,stat et Roma; quando cadet colisæus, cadet et Roma; quando cadet Roma, cadet et
+        mundus. This isoften mistranslated to refer to the Colosseum rather than the Colossus\n\n
+        ★ Vespasian and Titus, builders of the Colosseum\n</string>
+    <string name="about_colosseum_2">
+        ★ The site chosen was a flat area on the floor of a low valley between the Caelian, Esquiline
+        and Palatine Hills, through which a canalised stream ran. By the 2nd century BC the area was
+        densely inhabited. It was devastated by the Great Fire of Rome in AD 64, following which Nero
+        seized much of the area to add to his personal domain. \n\n
+        ★ He built the grandiose Domus Aurea on the site, in front of which he created an artificial
+        lake surrounded by pavilions, gardens and porticoes. The existing Aqua Claudia aqueduct was
+        extended to supply water to the area and the gigantic bronze Colossus of Nero was set up
+        nearby at the entrance to the Domus Aurea.\n\n
+        ★ The Colosseum underwent several radical changes of use during the medieval period. By the
+        late 6th century a small chapel had been built into the structure of the amphitheater, though
+        this apparently did not confer any particular religious significance on the building as a
+        whole. The arena was converted into a cemetery.\n\n
+        ★ The numerous vaulted spaces in the arcades under the seating were converted into housing and
+        workshops, and are recorded as still being rented out as late as the 12th century. Around
+        1200 the Frangipani family took over the Colosseum and fortified it, apparently using it as
+        a castle.\n\n
+        ★ During the 16th and 17th century, Church officials sought a productive role for the Colosseum.
+        Pope Sixtus V (1585–1590) planned to turn the building into a wool factory to provide employment
+        for Romes prostitutes, though this proposal fell through with his premature death. In 1671
+        Cardinal Altieri authorized its use for bullfights; a public outcry caused the idea to be hastily
+        abandoned.\n\n
+        ★ The arena itself was 83 meters by 48 meters. It comprised a wooden floor covered by sand,
+        covering an elaborate underground structure called the hypogeum . The hypogeum was not part
+        of the original construction but was ordered to be built by Emperor Domitian.\n</string>
+
+    <string name="contactinfo_taj">
+        ★ Official Contacts\n
+          "       "" "+91 05622226434\n
+          "       "" "( 10:00 am to 5:00 pm )\n\n
+        ★ info@tajmahal.gov.in\n
+          "       "" "( excluding declared holidays and sundays )\n\n
+        ★ Tourist Police Station\n
+          "       "" "+91 9454402765\n\n
+        ★ Tourist Helpline\n
+          "       "" "+91 9356462115\n
+          "       "" "( 06:30 am to 5:30 pm )\n\n</string>
+    <string name="contactinfo_eiffel">
+        ★ Official Contacts\n
+          "       "" "+33 892 70 10 39\n
+          "       "" "( 09:30 am to 12:00 am )\n\n
+        ★ info@eiffeltower.gov.in\n
+          "       "" "( excluding declared holidays and sundays )\n</string>
+    <string name="contactinfo_statue">
+        ★ Official Contacts\n
+          "       "" "(646) 356-2403\n
+          "       "" "(Answered Weekdays 09:00 am to 04:00 pm )\n\n
+        ★ info@libertyisland.gov.in\n
+          "       "" "( excluding declared holidays and sundays )\n</string>
+    <string name="contactinfo_sagrada">
+        ★ Official Contacts\n
+          "       "" "(+34) 932 080 414\n
+          "       "" "(From Monday to Thursday from 8:00 AM to 5:45 PM.)\n\n
+          "       "" "(Friday from 8:00 AM to 2:30 PM.)\n\n
+        ★ info@sagradafamilia.gov.in\n
+          "       "" "( excluding declared holidays and sundays )\n\n</string>
+    <string name="contactinfo_wall">
+        ★ Official Contacts\n
+          "       "" "(646) 356-2403\n
+          "       "" "(Answered Weekdays 09:00 am to 04:00 pm )\n\n
+        ★ info@libertyisland.gov.in\n
+          "       "" "( excluding declared holidays and sundays )\n</string>
+    <string name="contactinfo_colosseum">
+        ★ Official Contacts\n
+          "       "" "+39 06 3996 7700\n
+          "       "" "(Answered Weekdays 09:00 am to 04:00 pm )\n\n
+        ★ ssba-rm.colosseo@beniculturali.it\n
+          "       "" "( excluding declared holidays and sundays )\n\n</string>
+
+    <string name="sagrada_in">Interior</string>
+    <string name="sagrada_interior1">
+        ★ The church plan is that of a Latin cross with five aisles. The central nave vaults reach
+        forty-five metres (150 ft) while the side nave vaults reach thirty metres (100 ft). The
+        transept has three aisles. The columns are on a 7.5 metre (25 ft) grid.\n</string>
+    <string name="sagrada_interior2">
+        ★ The crossing rests on the four central columns of porphyry supporting a great hyperboloid
+        surrounded by two rings of twelve hyperboloids (currently under construction). The central
+        vault reaches sixty metres (200 ft). The apse is capped by a hyperboloid vault reaching
+        seventy-five metres (250 ft).\n</string>
+    <string name="sagrada_interior3">
+        ★ The columns of the interior are a unique Gaudí design. Besides branching to support their
+        load, their ever-changing surfaces are the result of the intersection of various geometric
+        forms. The simplest example is that of a square base evolving into an octagon as the column
+        rises, then a sixteen-sided form, and eventually to a circle.\n</string>
+    <string name="from_the_moon_1">
+        ★ One of the earliest known references to the myth that the Great Wall can be seen from the
+        moon appears in a letter written in 1754 by the English antiquary William Stukeley. Stukeley
+        wrote that, This mighty wall of four score miles [130 km] in length is only exceeded by the
+        Chinese Wall, which makes a considerable figure upon the terrestrial globe, and may be
+        discerned at the Moon.</string>
+    <string name="from_the_moon_2">
+        ★ The claim the Great Wall is visible from the moon has been debunked many times, but is still
+        ingrained in popular culture. The wall is a maximum 9.1 m (29 ft 10 in) wide, and is about the
+        same color as the soil surrounding it. Based on the optics of resolving power (distance versus
+        the width of the iris: a few millimeters for the human eye, meters for large telescopes) only
+        an object of reasonable contrast to its surroundings which is 110 km (70 mi) or more in diameter
+        (1 arc-minute) would be visible to the unaided eye from the Moon, whose average distance from
+        Earth is 384,393 km (238,851 mi).</string>
+    <string name="how_was_built">
+        ★ The majestic Great Wall was built with wisdom, dedication, blood, sweat, and tears. Families
+        were separated, and many workers died and were interred as part of the Great Wall itself.\n\n
+        ➤ Workers : soldiers, peasants, rebels\n
+        ➤ Materials: stone, soil, sand, brick\n
+        ➤ Material delivery: by hand, rope, cart, goat</string>
+    <string name="how_built">How Wall is Built</string>
+    <string name="Wall_from_the_moon">Wall from the Moon</string>
+    <string name="contactname">Helpline</string>
+    <string name="communicate">Communicate</string>
+    <string name="share">Share</string>
+    <string name="item_about">About</string>
+    <string name="update_content">This Content Will Be Shown in Next Update</string>
+    <string name="dialogue">
+        WORLD TOUR GUIDE application briefs about the various Tourism locations in the world.
+        Selected countries with 4 different locations are available in the Application. If you
+        like this App , share this with yours friends.\n\n
+        ★ ★ ★ ★ THANK YOU ★ ★ ★ ★
+
+    </string>
+    <string name="geo_format">geo:%f,%f</string>
+    <string name="title_wall">Great Wall of China</string>
+    <string name="title_potala">Potala Palace</string>
+    <string name="title_terracotta">Terracotta Army</string>
+    <string name="title_forbidden">Forbidden City</string>
+    <string name="sub_title_wall">Huairou, China</string>
+    <string name="sub_title_potala">Lhasa , Tibet</string>
+    <string name="sub_title_terracotta">Xi\'an , Shaanxi</string>
+    <string name="sub_title_forbidden">Dongcheng , Beijing</string>
+    <string name="title_eiffel">Eiffel Tower</string>
+    <string name="title_disney">Disney Land</string>
+    <string name="title_cannes">Cannes</string>
+    <string name="title_louvre">The Louvre</string>
+    <string name="title_taj">Taj Mahal</string>
+    <string name="title_hill">Hill Stations</string>
+    <string name="title_falls">Dudhsagar Falls</string>
+    <string name="ghats">Ghats</string>
+    <string name="title_colosseum">Colosseum</string>
+    <string name="title_leaning">Leaning Tower of Pisa</string>
+    <string name="title_amalfi">Amalfi Coast</string>
+    <string name="title_piazza">Piazza San Marco</string>
+    <string name="title_sagrada">Sagrada Família</string>
+    <string name="majorka">Majorca</string>
+    <string name="alhambra">Alhambra</string>
+    <string name="ibiza">Ibiza</string>
+    <string name="title_statue">Statue of Liberty</string>
+    <string name="title_canyon">Grand Canyon</string>
+    <string name="title_yosemite">Yosemite National Park</string>
+    <string name="title_rushmore">Mount Rushmore National Memorial</string>
+    <string name="sub_title_eiffel">5 Avenue Anatole France , Paris</string>
+    <string name="sub_title_disney">Marne-la-Vallée , Paris</string>
+    <string name="sub_title_cannes">French Riviera , France</string>
+    <string name="sub_title_louvre">Rue de Rivoli , Paris</string>
+    <string name="sub_title_taj">Agra , Uttar Pradeh</string>
+    <string name="sub_title_hill">Munnar , Kerala</string>
+    <string name="sub_title_falls">Goa , Panjim</string>
+    <string name="sub_title_ghats">Varanasi , Uttar Pradesh</string>
+    <string name="sub_title_colosseum">Piazza del Colosseo , Rome</string>
+    <string name="sub_title_leaning">Piazza del Duomo , Pisa</string>
+    <string name="sub_title_amalfi">Amalfi Province of Salerno , Italy</string>
+    <string name="sub_title_piazza">Venezia VE , Italy</string>
+    <string name="sub_title_sagrada">Carrer de Mallorca , Barcelona</string>
+    <string name="sub_title_majorka">Island in Spain</string>
+    <string name="sub_title_alhambra">Granada , Spain</string>
+    <string name="sub_title_ibiza">Island in the Mediterranean Sea</string>
+    <string name="sub_title_statue">New York Harbor , New York City</string>
+    <string name="sub_title_canyon">Colorado River , Arizona</string>
+    <string name="sub_title_yosemite">California , U.S.A</string>
+    <string name="sub_title_rushmore">Keystone , South Dakota</string>
+    <string name="check_out_app">Check out App</string>
+    <string name="tex_plain">text/plain</string>
+    <string name="card_text_india">India</string>
+    <string name="card_text_italy">Italy</string>
+    <string name="card_text_china">China</string>
+    <string name="card_text_usa">U.S.A</string>
+    <string name="card_text_spain">Spain</string>
+    <string name="card_text_france">France</string>
+    <string name="ok">OK</string>
+    <string name="ranks">Ranks #</string>
+    <string name="world">" "in World</string>
+
+</resources>
